@@ -20,7 +20,7 @@ footer {
 .cat-card {
   border: 1px solid #ddd;
   text-align: center;
-  height: 250px;
+  /* height: 250px; */ /* the height is commented out because it is small than required and thus causing an overflow */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -29,4 +29,10 @@ footer {
 .cat-info {
   background: #f8f9fa;
   border-radius: 4px;
+  padding: 10px;
+}
+
+.breed-type {
+  font-weight: bold;
+  color: #ca4714;
 }
