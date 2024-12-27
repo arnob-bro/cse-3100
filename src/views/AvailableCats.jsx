@@ -30,6 +30,7 @@ export default function AvailableCats() {
       } catch (error) {
         console.error('Error fetching cat images:', error);
       }
+      print(filteredCats[1][image]);
     };
 
     fetchCatImages();
