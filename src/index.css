@@ -36,3 +36,52 @@ footer {
   font-weight: bold;
   color: #ca4714;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.available-cats-header {
+  display: flex;
+  flex: 1;
+}
+.filter-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+  flex: 1.5;
+}
+
+.filter-form input,
+.filter-form select,
+.filter-form button {
+  max-width: 250px;
+  height: 40px;
+  flex: 1;
+}
+
+.contact-us {
+  margin: 20px;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+.contact-us form input,
+.contact-us form select,
+.contact-us form button {
+  max-width: 40%;
+  height: 40px;
+}
+.contact-us form button {
+  margin-top: 20px;
+  width: 20%;
+}
